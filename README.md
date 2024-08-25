@@ -37,6 +37,6 @@ A ReactJS-based weather application that allows users to search for current weat
 4. **Start the development server:**
    ```bash
    npm run start
-   
 
-   
+
+## Live Demo
