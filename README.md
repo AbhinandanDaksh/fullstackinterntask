@@ -24,12 +24,12 @@ A ReactJS-based weather application that allows users to search for current weat
    ```bash
    https://github.com/AbhinandanDaksh/fullstackinterntask.git
 
-2 **Navigate to the project directory:**
+2. **Navigate to the project directory:**
 
    ```bash
    cd fullstackinterntask
 
-3 **Install the dependencies:**
+3. **Install the dependencies:**
 
    ```bssh
    npm install
