@@ -34,4 +34,9 @@ A ReactJS-based weather application that allows users to search for current weat
    ```bssh
    npm install
 
+4. **Start the development server:**
+   ```bash
+   npm run start
+   
+
    
