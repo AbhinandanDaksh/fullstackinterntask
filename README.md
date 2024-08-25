@@ -40,3 +40,5 @@ A ReactJS-based weather application that allows users to search for current weat
 
 
 ## Live Demo
+Check out the live version of the ReachInbox Assignment here: [Live Demo](https://fullstackinterntask.vercel.app/current-weather)
+
