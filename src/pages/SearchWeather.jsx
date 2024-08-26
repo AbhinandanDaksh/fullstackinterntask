@@ -150,8 +150,8 @@ const SearchWeather = () => {
 
 
 
-            <h2 className="text-xl font-semibold flex uppercase mt-5 bg-white p-3 rounded-md gap-1">
-              Upcoming forecast for <p className="text-[#9836B3]">{location}</p>
+            <h2 className="text-xl font-semibold  uppercase mt-5 bg-white p-3 rounded-md gap-1">
+              Upcoming forecast for<p className="text-[#9836B3] items-center text-center">{location}</p>
             </h2>
             <div style={{ justifyContent: "space-around" }} className="mb-10 flex flex-wrap">
               {forecastData.map((day, index) => (
