@@ -10,6 +10,8 @@ import wind from "../assets/wind.png";
 import Spinner from "./Spinner";
 
 const CurrentWeather = () => {
+
+
   const [weatherData, setWeatherData] = useState(null);
   const [forecastData, setForecastData] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -94,10 +96,12 @@ const CurrentWeather = () => {
           {activeTab === "location" && (
             <div className="flex flex-col justify-center items-center mt-10">
               <img src={Location} alt="Location Icon" />
+
               <h1 className="text-3xl font-semibold mt-10">Grant Location Access</h1>
               <h1 className="flex justify-center items-center text-center p-2">
                 Allow access to receive weather information at your current location
               </h1>
+
               <button onClick={getLocationAndFetchWeather} className="w-28 p-1 border rounded-md bg-slate-300 border-black hover:bg-[#9836B3]">
                 Get Weather
               </button>
@@ -143,6 +147,8 @@ const CurrentWeather = () => {
                       </p>
                     </div>
                   </div>
+
+
 
                   <h2 className="text-xl font-semibold flex uppercase mt-5 bg-white p-3 rounded-md gap-1">
                     Upcoming forecast for <p className="text-[#9836B3]">{weatherData?.name}</p>
