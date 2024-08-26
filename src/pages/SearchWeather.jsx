@@ -6,6 +6,7 @@ import fahrenheit from "../assets/fahrenheit.png";
 import cloud from "../assets/cloud.png";
 import humidity from "../assets/humidity.png";
 import wind from "../assets/wind.png";
+import Spinner from "./Spinner";
 
 const SearchWeather = () => {
 
@@ -100,7 +101,7 @@ const SearchWeather = () => {
       </button>
 
       {loading ? 
-      (  <p>Loading...</p>)
+      (  <p className=" flex justify-center items-center  ">{<Spinner/>}</p>)
        : 
       error ? (<p>{error}</p>) :
 

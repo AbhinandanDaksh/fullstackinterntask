@@ -1,0 +1,23 @@
+.dots {
+    @apply w-[13.4px] h-[13.4px] bg-[#9836b3] rounded-full;
+    box-shadow: 22.4px 0, -22.4px 0;
+    animation: dots-animation 1s infinite linear alternate;
+  }
+  
+  @keyframes dots-animation {
+    0% {
+      box-shadow: 22.4px 0, -22.4px 0;
+      background: #9836b3;
+    }
+  
+    33% {
+      box-shadow: 22.4px 0, -22.4px 0 rgba(152, 54, 179, 0.13);
+      background: rgba(152, 54, 179, 0.13);
+    }
+  
+    66% {
+      box-shadow: 22.4px 0 rgba(152, 54, 179, 0.13), -22.4px 0;
+      background: rgba(152, 54, 179, 0.13);
+    }
+  }
+  

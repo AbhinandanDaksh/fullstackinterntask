@@ -89,7 +89,7 @@ const Home = () => {
                 <Routes>
                     <Route path="/current-weather" element={<CurrentWeather />} />
                     <Route path="/search-weather" element={<SearchWeather />} />
-                    <Route path="/" element={<CurrentWeather />} />
+                    {/* <Route path="/" element={<CurrentWeather />} /> */}
                 </Routes>
             </div>
         </div>
